@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/style.css" rel="stylesheet" />
+    <title>CSS: Pokemon Card</title>
+  </head>
+  <body>
+    <main id="wrapper">
+      <article class="card card--fire">
+        <header class="card-title">
+          <div class="card-title__stage-wrapper">
+            <span class="card-title__stage">Basic</span>
+          </div>
+
+          <h1 class="card-title__name">Charmander</h1>
+
+          <span class="card-title__hp">
+            <span class="card-title__hp-unit">hp</span>
+            <span class="card-title__hp-amount">60</span>
+          </span>
+
+          <img class="card-title__type" src="/types/fire.webp" alt="Fire" />
+        </header>
+
+        <div class="card-profile">
+          <div class="card-profile__portrait-wrapper">
+            <img class="card-profile__portrait" src="/portraits/charmander.avif" alt="Charmander" />
+          </div>
+
+          <div class="card-profile__bio-wrapper">
+            <div class="card-profile__bio">
+              NO. 004 Lizard Pokemon HT: 2' WT: 18.7 lbs.
+            </div>
+          </div>
+        </div>
+
+        <div class="card-abilities">
+          <div class="card-ability">
+            <div class="card-ability__cost">
+              <img class="card-ability__type" src="/types/any.webp" alt="Any" />
+            </div>
+            <span class="card-ability__name">Scratch</span>
+            <span class="card-ability__damage">10</span>
+          </div>
+
+          <div class="card-ability">
+            <div class="card-ability__cost">
+              <img class="card-ability__type" src="/types/fire.webp" alt="Fire" />
+              <img class="card-ability__type" src="/types/any.webp" alt="Any" />
+            </div>
+            <span class="card-ability__name">Flame Tail</span>
+            <span class="card-ability__damage">20</span>
+          </div>
+        </div>
+
+        <div class="card-metadata">
+          <div class="card-metadata__resistance-wrapper">
+            <div class="card-metadata__resistance">
+              weakness
+              <img class="card-metadata__resistance-symbol" src="/types/water.webp" alt="Any" />
+              <span class="card-metadata__multiplier">x 2</span>
+            </div>
+          </div>
+
+          <div class="card-metadata__retreat-wrapper">
+            <p class="card-metadata__retreat">
+              retreat
+              <img class="card-metadata__resistance-symbol" src="/types/any.webp" alt="Any" />
+            </p>
+          </div>
+        </div>
+
+        <div class="card-description">
+          <p class="card-description__illustrator">illus. Kogemaru Himeno</p>
+          <span class="card-description__card-number">18/147</span>
+          <p class="card-description__flavor">The flame on its tail indicates Charmander's life force. if it is healthy, the flame burns brightly.</p>
+        </div>
+
+        <footer class="card__copyright">
+          &copy; 2022 Niantic. &copy; Pokemon / Nintendo / Creatures / GAME FREAK.
+        </footer>
+      </article>
+
+      <article class="card card--grass">
+        <header class="card-title">
+          <div class="card-title__stage-wrapper">
+            <span class="card-title__stage">Basic</span>
+          </div>
+
+          <h1 class="card-title__name">Bulbasaur</h1>
+
+          <span class="card-title__hp">
+            <span class="card-title__hp-unit">hp</span>
+            <span class="card-title__hp-amount">70</span>
+          </span>
+
+          <img class="card-title__type" src="/types/grass.webp" alt="Grass" />
+        </header>
+
+        <div class="card-profile">
+          <div class="card-profile__portrait-wrapper">
+            <img class="card-profile__portrait" src="/portraits/bulbasaur.avif" alt="Bulbasaur" />
+          </div>
+
+          <div class="card-profile__bio-wrapper">
+            <div class="card-profile__bio">
+              NO. 001 Seed Pokemon HT: 2'4" WT: 15.2 lbs.
+            </div>
+          </div>
+        </div>
+
+        <div class="card-abilities">
+          <div class="card-ability">
+            <div class="card-ability__cost">
+              <img class="card-ability__type" src="/types/grass.webp" alt="Grass" />
+            </div>
+            <span class="card-ability__name">Vine Whip</span>
+            <span class="card-ability__damage">10</span>
+          </div>
+
+          <div class="card-ability">
+            <div class="card-ability__cost">
+              <img class="card-ability__type" src="/types/grass.webp" alt="Grass" />
+              <img class="card-ability__type" src="/types/any.webp" alt="Any" />
+            </div>
+            <span class="card-ability__name">Razor Leaf</span>
+            <span class="card-ability__damage">20</span>
+          </div>
+        </div>
+
+        <div class="card-metadata">
+          <div class="card-metadata__resistance-wrapper">
+            <div class="card-metadata__resistance">
+              weakness
+              <img class="card-metadata__resistance-symbol" src="/types/fire.webp" alt="Fire" />
+              <span class="card-metadata__multiplier">x 2</span>
+            </div>
+          </div>
+
+          <div class="card-metadata__retreat-wrapper">
+            <p class="card-metadata__retreat">
+              retreat
+              <img class="card-metadata__resistance-symbol" src="/types/any.webp" alt="Any" />
+              <img class="card-metadata__resistance-symbol" src="/types/any.webp" alt="Any" />
+            </p>
+          </div>
+        </div>
+
+        <div class="card-description">
+          <p class="card-description__illustrator">illus. sowsow</p>
+          <span class="card-description__card-number">001/078</span>
+          <p class="card-description__flavor">There is a plant seed on its back right from the day this Pokemon is born. The seed slowly grows larger.</p>
+        </div>
+
+        <footer class="card__copyright">
+          &copy; 2022 Niantic. &copy; Pokemon / Nintendo / Creatures / GAME FREAK.
+        </footer>
+      </article>
+
+      <article class="card card--water">
+        <header class="card-title">
+          <div class="card-title__stage-wrapper">
+            <span class="card-title__stage">Basic</span>
+          </div>
+
+          <h1 class="card-title__name">Squirtle</h1>
+
+          <span class="card-title__hp">
+            <span class="card-title__hp-unit">hp</span>
+            <span class="card-title__hp-amount">70</span>
+          </span>
+
+          <img class="card-title__type" src="/types/water.webp" alt="Water" />
+        </header>
+
+        <div class="card-profile">
+          <div class="card-profile__portrait-wrapper">
+            <img class="card-profile__portrait" src="/portraits/squirtle.avif" alt="Squirtle" />
+          </div>
+
+          <div class="card-profile__bio-wrapper">
+            <div class="card-profile__bio">
+              NO. 007 Tiny Turtle Pokemon HT: 1'08" WT: 19.8 lbs.
+            </div>
+          </div>
+        </div>
+
+        <div class="card-abilities">
+          <div class="card-ability">
+            <div class="card-ability__cost">
+              <img class="card-ability__type" src="/types/any.webp" alt="Any" />
+            </div>
+            <span class="card-ability__name">Tackle</span>
+            <span class="card-ability__damage">10</span>
+          </div>
+
+          <div class="card-ability">
+            <div class="card-ability__cost">
+              <img class="card-ability__type" src="/types/water.webp" alt="Water" />
+              <img class="card-ability__type" src="/types/any.webp" alt="Any" />
+            </div>
+            <span class="card-ability__name">Rain Splash</span>
+            <span class="card-ability__damage">20</span>
+          </div>
+        </div>
+
+        <div class="card-metadata">
+          <div class="card-metadata__resistance-wrapper">
+            <div class="card-metadata__resistance">
+              weakness
+              <img class="card-metadata__resistance-symbol" src="/types/grass.webp" alt="Grass" />
+              <span class="card-metadata__multiplier">x 2</span>
+            </div>
+          </div>
+
+          <div class="card-metadata__retreat-wrapper">
+            <p class="card-metadata__retreat">
+              retreat
+              <img class="card-metadata__resistance-symbol" src="/types/any.webp" alt="Any" />
+            </p>
+          </div>
+        </div>
+
+        <div class="card-description">
+          <p class="card-description__illustrator">illus. HYOGONOSUKE</p>
+          <span class="card-description__card-number">23/181</span>
+          <p class="card-description__flavor">It shelters itself in its shell, then strikes back with spouts of water at every opportunity.</p>
+        </div>
+
+        <footer class="card__copyright">
+          &copy; 2022 Niantic. &copy; Pokemon / Nintendo / Creatures / GAME FREAK.
+        </footer>
+      </article>
+    </main>
+  </body>
+</html>
